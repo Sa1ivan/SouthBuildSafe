@@ -1,0 +1,10 @@
+.header__container
+{
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-left: 5px solid black;
+    height: 75%;
+}
