@@ -4,13 +4,14 @@
     background: none;
     width: 200px;
     opacity: 1;
-    transition: width, 0.7s 0.1s linear;
+    transition: linear;
+    padding: 0;
+    margin: 0;
 }
 .nav__button:hover
 {
     background-color: #5395c9;
     border-radius: 3px;
-    width: 205px;
     cursor: pointer;
-    transition: background-color, width, font-weight 0.7s 0.1s linear;
+    transition: background-color, linear;
 }

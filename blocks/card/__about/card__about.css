@@ -1,0 +1,9 @@
+.card__about
+{
+    font-weight: lighter;
+    font-size: 12px;
+    line-height: 20px;
+    color: white;
+    text-shadow: black;
+    padding: 10px 0 10px 0;
+}

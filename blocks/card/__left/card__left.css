@@ -1,0 +1,13 @@
+.card__left
+{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 20px;
+    z-index: 1;
+}
+
+.card__left:hover
+{
+    cursor: pointer;
+}

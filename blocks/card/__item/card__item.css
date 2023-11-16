@@ -1,0 +1,12 @@
+.card__item
+{
+    background-image: url("/images/main-card.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1280px;
+    height: 600px;
+    position: relative;
+    filter: drop-shadow(1000px 1000px);
+    backdrop-filter: drop-shadow(1000px 1000px);
+}

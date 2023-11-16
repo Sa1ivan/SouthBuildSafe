@@ -15,4 +15,19 @@
 @import url("/blocks/main/main.css");
 @import url("/blocks/nav/nav.css");
 @import url("/blocks/nav/__button/nav__button.css");
-@import url("/blocks/nav/__button/_hover/nav__button_hover.css");
+@import url("/blocks/nav/__text/nav__text.css");
+@import url("/blocks/card/card.css");
+@import url("/blocks/card/__item/card__item.css");
+@import url("/blocks/card/__title/card__title.css");
+@import url("/blocks/card/__shadow/card__shadow.css");
+@import url("/blocks/card/__nav/card__nav.css");
+@import url("/blocks/card/__about/card__about.css");
+@import url("/blocks/card/__button/card__button.css");
+@import url("/blocks/card/__button-text/card__button-text.css");
+@import url("/blocks/card/__info/card__info.css");
+@import url("/blocks/card/__left/card__left.css");
+@import url("/blocks/card/__right/card__right.css");
+@import url("/blocks/style.css");
+
+
+
