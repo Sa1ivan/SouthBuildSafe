@@ -1,4 +1,7 @@
 .header__title
 {
+    font-family: 'Inter', sans-serif;
+    font-size: 27px;
     font-weight: bold;
+    line-height: 30px;
 }
