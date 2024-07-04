@@ -1,0 +1,29 @@
+.card__name{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0 0 30px;
+    padding: 0;
+}
+
+.card__img
+{
+    width: 600px;
+    height: 375px;
+    object-fit: cover;
+    object-position: center;
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+    box-shadow: none;
+    transition: box-shadow .3s ease-in-out;
+    border-radius: 15px;
+}
+
+.card__img:hover{
+    cursor: pointer;  
+    box-shadow: 0px 0px 42px 0px rgba(1, 1, 1, 0.14);
+    transition: box-shadow .3s ease-in-out;
+}

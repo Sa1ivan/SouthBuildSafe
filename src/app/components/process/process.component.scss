@@ -1,0 +1,98 @@
+.process__title{
+    color: #157FB6;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px;
+}
+
+.process__item{
+    max-width: 400px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.08);
+}
+
+.process__img{
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    object-position: center;
+    object-fit: cover;
+    box-sizing: border-box;
+    box-shadow: none;
+    transition: box-shadow .3s ease-in-out;
+}
+
+.process__img:hover{
+    cursor: pointer;  
+    box-shadow: 0px 0px 42px 0px rgba(1, 1, 1, 0.14);
+    transition: box-shadow .3s ease-in-out;
+}
+
+.process__name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.process__name_text{
+    margin-left: 15px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333;
+}
+
+.process__name_date{
+    margin-right: 15px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333;
+}
+
+.process__items{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    gap: 40px;
+    justify-content: center;
+}
+
+.process__title{
+    color: #333;
+    font-family: "Inter";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    margin-top: 70px;
+}
+
+.process{
+    margin: 0 0 100px;
+    padding: 0;
+}
+
+.videos__title{
+    color: #333;
+    font-family: "Inter";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    margin-top: 70px;
+}
+
+.videos__items{
+    display: grid;
+    grid-template-columns: 275px 275px 275px;
+    gap: 225px;
+    justify-content: center;
+}
+
+.videos{
+    margin: 0 0 100px;
+    padding: 0;
+}
