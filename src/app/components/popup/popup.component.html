@@ -1,6 +1,17 @@
-<div class="popup {{sPopupImage.display}}">
-    <div class="popup__container">
-        <img class="popup__img" src="{{sPopupImage.src}}" alt="{{sPopupImage.title}}">
-        <img class="popup__close" src="./assets/images/close.png" alt="" (click)="close(sPopupImage)">
-    </div>
+<div mat-dialog-title class="popup_titile">
+    {{this.imageTitle}}
+    <button mat-icon-button style="float: right;" mat-dialog-close="close" class="close">
+        <mat-icon>close</mat-icon>
+    </button>
 </div>
+
+<mat-dialog-content class="popup">
+    <span style="display: none;">{{imageSrc}}</span>
+    <button mat-flat-button (click)="prev(imageSrc)">&#9668;</button>
+    <img src="{{this.imageSrc}}" alt="{{this.imageTitle}}" class="popup__img">
+    <button mat-flat-button (click)="next(this.imageSrc)">&#9658;</button>
+</mat-dialog-content>
+
+<mat-dialog-actions class="point">
+    <div class="point_text">{{counter}} - {{this.dialogData.length}}</div>
+</mat-dialog-actions>

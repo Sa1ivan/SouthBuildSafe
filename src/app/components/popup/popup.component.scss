@@ -1,21 +1,14 @@
 .popup{
-    position: fixed;
-    height: 400px;
-    width: 600px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    overflow-y: hidden;
-    box-sizing: border-box;
-    box-shadow: 0px 0px 0px 1500px rgba(1, 1, 1, 0.55);
-    background-color: rgba(1, 1, 1, 0.14);
-    z-index: 99;
-    &__container{
-        margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    &_title{
+        display: flex;
     }
     &__img{
-        height: 400px;
-        max-width: 600px;
+        width: 920px;
+        height: 600px;
         object-fit: cover;
         object-position: center;
         background-repeat: no-repeat;
@@ -31,6 +24,13 @@
     }
 }
 
+.close {
+    top: 9px
+}
+
+.prev{
+}
+
 .block{
     display: block;
     overflow: hidden;
@@ -38,4 +38,12 @@
 
 .none{
     display: none;
+}
+
+.point{
+    justify-content: center;
+    &_text{
+        color: white;
+        text-align: center;
+    }
 }

@@ -1,32 +1,19 @@
-import { Component } from '@angular/core';
-import { CatalogImages } from 'src/app/model/catalog';
+import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { CatalogType } from 'src/app/model/catalog';
+import { GetFilesService } from 'src/app/services/getFiles.service';
 
 @Component({
   selector: 'app-catalog',
   templateUrl: './catalog.component.html',
   styleUrls: ['./catalog.component.scss']
 })
-export class CatalogComponent {
+export class CatalogComponent implements OnInit {
+  constructor(public getFiles: GetFilesService) {}
 
-  public popupImage: CatalogImages | null=null;
+  public files$!: Observable<CatalogType[]>;
 
-  public images: CatalogImages[] = [
-    {
-      src: './assets/images/picture.png',
-      title: 'Кутузовский квартал',
-      display: 'block'
-    },
-    {
-      src: './assets/images/main-card.png',
-      title: 'Красавчиковый переулок',
-      display: 'block'
-    }
-  ];
-
-  public openPopup(image: CatalogImages)
-  {
-    console.log(image, this.popupImage);
-    this.popupImage = image;
-    image.display = 'block';
+  ngOnInit(): void {
+    this.files$ = this.getFiles._catalogFiles();
   }
 }

@@ -2,10 +2,7 @@
     <h2 class="title-project__title">Каталог проектов</h2>
 </section>
 <section class="cards">
-    <div class="card__container" *ngFor="let image of images">
-        <app-catalog-card [sImage]="image" (openImage)="openPopup($event)"></app-catalog-card>
-    </div>
-    <div *ngIf="popupImage">
-        <app-popup [sPopupImage]="popupImage"></app-popup>
-    </div>
+        <div class="card__container" *ngFor="let image of files$ | async">
+            <app-catalog-card [sImage]="image"></app-catalog-card>
+        </div>
 </section>
