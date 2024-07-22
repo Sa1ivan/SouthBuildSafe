@@ -20,6 +20,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { ProcessCardComponent } from './components/process-card/process-card.component';
 
 const MaterialModules = [
   MatDialogModule,
@@ -40,6 +41,7 @@ const MaterialModules = [
     AboutComponent,
     PopupComponent,
     CatalogCardComponent,
+    ProcessCardComponent,
     
   ],
   imports: [

@@ -1,69 +1,7 @@
 <section class="process">
     <h2 class="process__title">Процесс</h2>
-    <div class="process__items">
-        <div class="process__item">
-            <img src="./assets/images/1.png" class="process__img"/>
-            <div class="process__name">
-                <p class="process__name_text">Код объекта: 17-23 СУ</p>
-                <p class="process__name_date">2023-11-10</p>
-            </div>
-        </div>
-        <div class="process__item">
-            <img src="./assets/images/1.png" class="process__img"/>
-            <div class="process__name">
-                <p class="process__name_text">Код объекта: 17-23 СУ</p>
-                <p class="process__name_date">2023-11-10</p>
-            </div>
-        </div>
-        <div class="process__item">
-            <img src="./assets/images/1.png" class="process__img"/>
-            <div class="process__name">
-                <p class="process__name_text">Код объекта: 17-23 СУ</p>
-                <p class="process__name_date">2023-11-10</p>
-            </div>
-        </div>
-        <div class="process__item">
-            <img src="./assets/images/1.png" class="process__img"/>
-            <div class="process__name">
-                <p class="process__name_text">Код объекта: 17-23 СУ</p>
-                <p class="process__name_date">2023-11-10</p>
-            </div>
-        </div>
-        <div class="process__item">
-            <img src="./assets/images/1.png" class="process__img"/>
-            <div class="process__name">
-                <p class="process__name_text">Код объекта: 17-23 СУ</p>
-                <p class="process__name_date">2023-11-10</p>
-            </div>
-        </div>
-        <div class="process__item">
-            <img src="./assets/images/1.png" class="process__img"/>
-            <div class="process__name">
-                <p class="process__name_text">Код объекта: 17-23 СУ</p>
-                <p class="process__name_date">2023-11-10</p>
-            </div>
-        </div>
-        <div class="process__item">
-            <img src="./assets/images/1.png" class="process__img"/>
-            <div class="process__name">
-                <p class="process__name_text">Код объекта: 17-23 СУ</p>
-                <p class="process__name_date">2023-11-10</p>
-            </div>
-        </div>
-        <div class="process__item">
-            <img src="./assets/images/1.png" class="process__img"/>
-            <div class="process__name">
-                <p class="process__name_text">Код объекта: 17-23 СУ</p>
-                <p class="process__name_date">2023-11-10</p>
-            </div>
-        </div>
-        <div class="process__item">
-            <img src="./assets/images/1.png" class="process__img"/>
-            <div class="process__name">
-                <p class="process__name_text">Код объекта: 17-23 СУ</p>
-                <p class="process__name_date">2023-11-10</p>
-            </div>
-        </div>
+    <div class="process__items" *ngFor="let process of files">
+        <app-process-card [sProcess]="process"></app-process-card>
     </div>
 </section>
 <section class="videos">

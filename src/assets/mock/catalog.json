@@ -5,7 +5,7 @@
             "school": [
                 {
                     "src": "./assets/images/school/1.png",
-                    "title": "Школа",
+                    "title": "Кочубеевская школа на 440 мест",
                     "display": "block"
                 },
                 {
@@ -53,7 +53,7 @@
             "firework": [
                 {
                     "src": "./assets/images/firework/1.png",
-                    "title": "Фейерверк",
+                    "title": "Кинотеатр «Салют»",
                     "display": "block"
                 },
                 {
@@ -70,6 +70,9 @@
                 },
                 {
                     "src": "./assets/images/firework/6.png"
+                },
+                {
+                    "src": "./assets/images/firework/7.png"
                 }
             ]
         },
@@ -77,7 +80,7 @@
             "parking": [
                 {
                     "src": "./assets/images/parking/1.png",
-                    "title": "Парковка",
+                    "title": "Многоуровневый паркинг",
                     "display": "block"
                 },
                 {
@@ -88,6 +91,27 @@
                 },
                 {
                     "src": "./assets/images/parking/4.png"
+                }
+            ] 
+        },
+        {
+            "europe": [
+                {
+                    "src": "./assets/images/europe/1.png",
+                    "title": "Торгово-развлекательный центр «Европейский»",
+                    "display": "block"
+                },
+                {
+                    "src": "./assets/images/europe/2.png"
+                },
+                {
+                    "src": "./assets/images/europe/3.png"
+                },
+                {
+                    "src": "./assets/images/europe/4.png"
+                },
+                {
+                    "src": "./assets/images/europe/5.png"
                 }
             ] 
         }

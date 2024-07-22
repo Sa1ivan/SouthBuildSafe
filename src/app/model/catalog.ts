@@ -6,6 +6,7 @@ export interface CatalogType {
     school: Images[];
     firework: Images[];
     parking: Images[];
+    europe: Images[];
 }
 
 export interface Images {
