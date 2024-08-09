@@ -7,11 +7,6 @@
     line-height: 42px;
 }
 
-.process__items{
-    display: grid;
-    grid-template-columns: 400px 400px;
-    flex-wrap: wrap;
-}
 
 .process__title{
     color: #333;
@@ -26,6 +21,14 @@
 .process{
     margin: 0 0 100px;
     padding: 0;
+}
+
+.process__container{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
 }
 
 .videos__title{

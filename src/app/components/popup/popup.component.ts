@@ -1,7 +1,6 @@
-import { Component, inject, Input, OnInit } from '@angular/core';
-import { Images } from 'src/app/model/catalog';
-import { MatDialogModule, MAT_DIALOG_DATA, MatDialogRef, MatDialog } from '@angular/material/dialog';
-import { CatalogType } from 'src/app/model/catalog';
+import { Component, inject, OnInit } from '@angular/core';
+import { MAT_DIALOG_DATA } from '@angular/material/dialog';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-popup',
@@ -12,12 +11,14 @@ export class PopupComponent implements OnInit{
   public imageSrc!: any;
   public imageTitle!: any;
   public imageDisplay!: any;
-  public dialogData = inject(MAT_DIALOG_DATA)[0];
+  public dialogData = inject(MAT_DIALOG_DATA)[0] === '.' ? inject(MAT_DIALOG_DATA) : inject(MAT_DIALOG_DATA)[0];
   public counter = 1;
+  public router = inject(Router);
 
   ngOnInit(): void {
-    this.imageTitle = this.dialogData[0].title;
-    this.imageSrc = this.dialogData[0].src;
+    this.imageTitle = this.dialogData[0].title !== undefined ? this.dialogData[0].title : '';
+    this.imageSrc = this.dialogData[0].src !== undefined ? this.dialogData[0].src : this.dialogData + '';
+    console.log(this.router.url)
   }
 
   next(src: any)
