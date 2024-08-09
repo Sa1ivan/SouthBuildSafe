@@ -1,0 +1,8 @@
+<section class="title-project">
+    <h2 class="title-project__title">Каталог проектов</h2>
+</section>
+<section class="cards">
+        <div class="card__container" *ngFor="let image of files$ | async">
+            <app-catalog-card [sImage]="image"></app-catalog-card>
+        </div>
+</section>

@@ -1,0 +1,45 @@
+{
+    "data":
+    [
+        {
+            "process": [
+                {
+                    "src": "./assets/images/process/1.png",
+                    "title": "Кочубеевская школа"
+                },
+                {
+                    "src": "./assets/images/process/2.png",
+                    "title": "Кочубеевская школа"
+                },
+                {
+                    "src": "./assets/images/process/3.png",
+                    "title": "Кочубеевская школа"
+                },
+                {
+                    "src": "./assets/images/process/4.png",
+                    "title": "Кочубеевская школа"
+                },
+                {
+                    "src": "./assets/images/process/5.png",
+                    "title": "Кочубеевская школа"
+                },
+                {
+                    "src": "./assets/images/process/6.png",
+                    "title": "Кочубеевская школа"
+                },
+                {
+                    "src": "./assets/images/process/7.png",
+                    "title": "Кочубеевская школа"
+                },
+                {
+                    "src": "./assets/images/process/8.png",
+                    "title": "Кочубеевская школа"
+                },
+                {
+                    "src": "./assets/images/process/9.png",
+                    "title": "Кочубеевская школа"
+                }
+            ]
+        }
+    ]
+}

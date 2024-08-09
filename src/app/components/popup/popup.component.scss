@@ -1,0 +1,46 @@
+.popup{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    &_title{
+        display: flex;
+    }
+    &__img{
+        height: 490px;
+        object-fit: cover;
+        object-position: center;
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+    }
+    &__close{
+        position: relative;
+        top: -395px;
+        left: 93.5%;
+    }
+    &__close:hover{
+        cursor: pointer;
+    }
+}
+
+.close {
+    top: 9px
+}
+
+
+.block{
+    display: block;
+    overflow: hidden;
+}
+
+.none{
+    display: none;
+}
+
+.point{
+    justify-content: center;
+    &_text{
+        color: white;
+        text-align: center;
+    }
+}

@@ -1,0 +1,54 @@
+.process__title{
+    color: #157FB6;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px;
+}
+
+
+.process__title{
+    color: #333;
+    font-family: "Inter";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    margin-top: 70px;
+}
+
+.process{
+    margin: 0 0 100px;
+    padding: 0;
+}
+
+.process__container{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.videos__title{
+    color: #333;
+    font-family: "Inter";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    margin-top: 70px;
+}
+
+.videos__items{
+    display: grid;
+    grid-template-columns: 275px 275px 275px;
+    gap: 225px;
+    justify-content: center;
+}
+
+.videos{
+    margin: 0 0 100px;
+    padding: 0;
+}

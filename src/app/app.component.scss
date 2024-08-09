@@ -1,0 +1,287 @@
+@font-face {
+    font-family: Inter;
+    src: url(/assets/fonts/Inter-Regular.ttf);
+}
+
+.page {
+    width: 100%;
+    background-color: white;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    z-index: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+    z-index: 1;
+}
+
+.page__container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.main
+{
+    max-width: 1280px;
+    margin: 30px 0 0 0;
+    padding: 0;
+    width: 100%;
+}
+
+.header
+{
+    max-width: 1280px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.header__main
+{
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__container
+{
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-left: 3px solid gray;
+    height: 75%;
+}
+
+.header__logo
+{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 80px;
+}
+
+.header__title
+{
+    font-family: 'Inter', sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.header__phone
+{
+    color: #5395c9;
+    margin: 0;
+}
+
+.header__other
+{
+    font-size: 16px;
+    padding-left: 42px;
+}
+
+.header__links
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 92%;
+}
+
+.header__link
+{
+    color: black;
+    opacity: 1;
+    transition: opacity 0.7s linear;
+}
+
+.header__link:hover
+{
+    cursor: pointer;
+    opacity: 50%;
+    transition: opacity 0.7s linear;
+}
+
+.header__contact
+{
+    padding-top: 10px;
+}
+
+.header__address
+{
+    padding-top: 10px;
+}
+
+.nav
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    background-color: #f8f8f8;
+}
+
+.nav__button
+{
+    border: none;
+    background: none;
+    width: 200px;
+    opacity: 1;
+    transition: linear;
+    padding: 0;
+    margin: 0;
+}
+
+.nav__button:hover
+{
+    background-color: #5395c9;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color, linear;
+}
+
+.nav__text
+{
+    color: black;
+    width: 100%;
+    height: 100%;
+    transition: color, linear;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__text:hover
+{
+    color: white;
+    transition: color, linear;
+}
+
+.footer{
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 420px;
+    width: 100%;
+    padding: 0;
+    background-color: #014365;
+}
+
+.footer__nav
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.footer__contacts{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__logo
+{
+    margin-top: 10px;
+    width: 210px;
+    height: 190px;
+}
+
+.footer__phone
+{
+    width: 165px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+}
+
+.footer__phone_num
+{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer__mail
+{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+}
+
+.footer__mail_logo
+{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    object-fit: center;
+    margin-right: 20px;
+}
+
+.footer__mail_text{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer__address
+{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer__address_text{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer__info_text{
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+    padding: 0;
+    opacity: .8;
+}
+
+a{
+    text-decoration: none;
+}

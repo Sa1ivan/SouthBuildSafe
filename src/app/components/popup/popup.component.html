@@ -1,0 +1,16 @@
+<div mat-dialog-title class="popup_titile">
+    <button mat-icon-button style="float: right;" mat-dialog-close="close" class="close">
+        <mat-icon>close</mat-icon>
+    </button>
+</div>
+
+<mat-dialog-content class="popup">
+    <span style="display: none;">{{imageSrc}}</span>
+    <button mat-flat-button (click)="prev(imageSrc)" *ngIf="this.router.url !== '/process'">&#9668;</button>
+    <img src="{{this.imageSrc}}" alt="{{this.imageTitle}}" class="popup__img">
+    <button mat-flat-button (click)="next(this.imageSrc)"*ngIf="this.router.url !== '/process'">&#9658;</button>
+</mat-dialog-content>
+
+<mat-dialog-actions class="point" *ngIf="this.router.url !== '/process'">
+    <div class="point_text">{{counter}} - {{this.dialogData.length}}</div>
+</mat-dialog-actions>
