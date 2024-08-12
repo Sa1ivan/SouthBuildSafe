@@ -379,6 +379,9 @@
 .inputs{
     padding: 0 5px 0 30px;
     outline: none;
+    display: flex;
+    align-items: center;
+    color: #5395c9;
 }
 
 .inputs:focus{

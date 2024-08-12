@@ -7,8 +7,8 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
-  fullName!: string;
-  phone!: string;
+  fullName = '909951_ct@mail.ru';
+  phone= '8 (8652) 909-951';
 
   send(name: string, phone: string)
   { 
